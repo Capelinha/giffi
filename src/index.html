@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Giffi</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="render.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-left">
+        <button id="start-video" class="button is-primary">Vídeo</button>
+        <button id="start-gif" class="button is-info" style="margin-left: 10px;">GIF</button>
+        <button id="select" class="button" style="margin-left: 15px;"><i class="far fa-desktop"></i></button>
+      </div>
+
+      <div class="header-right">
+        <button id="minimize" class="button is-white is-outlined"><i class="far fa-minus"></i></button>
+        <button id="close" class="button is-danger is-outlined" style="margin-left: 10px;"><i class="far fa-times"></i></button>
+      </div>
+    </div>
+    <div class="content">
+      <h1 id="size"></h1>
+    </div>
+  </body>
+</html>
